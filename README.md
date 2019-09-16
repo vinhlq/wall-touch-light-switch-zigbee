@@ -3,8 +3,7 @@
 ## 1. Định nghĩa
 
   * **wtls-z3-dev**: Bộ công tắc cảm ứng gắn tường
-  * **wtls-z3-coordinator-dev**: Thiết bị khởi tạo
-  * **wtls-z3-dev**: Thiết bị tham gia
+  * **wtls-z3-coordinator-dev**: Thiết bị làm nhiệm vụ khởi tạo mạng
   * **wtls-z3-app**: App điều khiển bộ công tắc cảm ứng gắn tường
   * **mht-zigbee-gateway**: zigbee <> ip gateway
 
@@ -18,8 +17,8 @@ SoC Family
 
   2.2 Zigbee platform
   * Hỗ trợ 2 chế độ làm việc:
-    * Normal: Thiết bị gắn với 1 mạng zigbee
-    * Touchlink: Thiết bị đóng vai trò khởi tạo mạng, không cần có mặt **mht-zigbee-gateway** 
+    * Normal: Thiết bị gắn với 1 mạng zigbee sử dụng ip-zigbee gateway
+    * Touchlink: Thiết bị đóng vai trò khởi tạo mạng, không cần ip-zigbee gateway 
 
   2.3 App platform
   * Hỗ trợ điều khiển trong mạng ip-local thông qua **mht-zigbee-gateway**
